@@ -1,5 +1,6 @@
 const mongoose = require("mongoose")
 
+
 const customersSchema = new mongoose.Schema({
   name: String,
   age: Number
